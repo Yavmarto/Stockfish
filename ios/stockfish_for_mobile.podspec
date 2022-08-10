@@ -3,7 +3,7 @@
 # Run `pod lib lint stockfish.podspec' to validate before publishing.
 #
 Pod::Spec.new do |s|
-  s.name             = 'stockfish'
+  s.name             = 'stockfish_for_mobile'
   s.version          = '0.0.1'
   s.summary          = 'The Stockfish Chess Engine for Flutter.'
   s.description      = <<-DESC
@@ -26,7 +26,7 @@ The Stockfish Chess Engine for Flutter.
   s.script_phase = {
     :execution_position => :before_compile,
     :name => 'Download nnue',
-    :script => "[ -e 'nn-82215d0fd0df.nnue' ] || curl --location --remote-name 'https://tests.stockfishchess.org/api/nn/nn-82215d0fd0df.nnue'"
+    :script => "[ -e 'nn-3c0aa92af1da.nnue' ] || curl --location --remote-name 'https://tests.stockfishchess.org/api/nn/nn-3c0aa92af1da.nnue'"
   }
   s.xcconfig = {
     'CLANG_CXX_LANGUAGE_STANDARD' => 'c++17',
