@@ -1,7 +1,6 @@
 name: stockfish_for_mobile
 description: The Stockfish Chess Engine for Flutter (ios / android) credits go to Arjan Aswal and loloof64.
-version: 1.0.0
-author: Arjan Aswal
+version: 1.1.0
 repository: https://github.com/Yavmarto/stockfish.git
 homepage: https://github.com/Yavmarto/stockfish.git
 
