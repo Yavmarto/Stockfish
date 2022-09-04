@@ -26,3 +26,11 @@
 
 * Update to Stockfish 15
 * minor fix
+
+## [1.1.1] - 3 September 2022
+
+* Minor fix for Android release
+
+## [1.1.2] - 3 September 2022
+
+* Minor fix for Android release
